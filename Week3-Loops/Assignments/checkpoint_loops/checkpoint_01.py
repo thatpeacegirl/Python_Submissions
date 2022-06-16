@@ -8,7 +8,7 @@ while is_asking:
     else:
         print(f"The number is: {number}")
         break
-
+print()
 
 # A program to stimulate a child asking their parent for a piece of 
 # candy using a while loop 
