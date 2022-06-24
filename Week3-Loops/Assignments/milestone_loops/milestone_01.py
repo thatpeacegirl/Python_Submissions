@@ -6,38 +6,31 @@
 
 import random
 
-
-magic_number = random.randint(1, 100)
-
-guess_count = 0
 game_play = "y"
-print()
-
 while game_play == "y":
-
-    guess_number = int(input("What is your guess? "))
-    guess_count += 1
-
-    if guess_number < magic_number:
-        print("Higher")
-    elif guess_number > magic_number:
-        print("Lower")
-    else:
-        print("\nYou guessed it!")
-        print(f"The number of guesses is: {guess_count}")
-
-        game_play = input("\nDo you want to play again?(Y/N) ").lower()
-
-        if game_play == "y":
-            guess_count = 0
-            magic_number = random.randint(1, 100)
-            print()
-            continue
-else:
-    print("Thank you for playing!")
-
-
     
+    magic_number = random.randint(1, 100)
+    guess_number = -1    #This number will not be easily guessed and it can also be 0
+    guess_count = 0
+    print()
 
-# Is there a better way to write the if game_play == "y" condition 
-# without repeating the magic_number variable and the guess_count = 0 ?
+    while guess_number != magic_number :
+
+        guess_number = int(input("What is your guess? "))
+        guess_count += 1
+
+        if guess_number < magic_number:
+            print("Higher")
+        elif guess_number > magic_number:
+            print("Lower")
+        else:
+            print("\nYou guessed it!")
+
+    print()   
+    print(f"The number of guesses is: {guess_count}")
+
+    game_play = input("\nDo you want to play again?(Y/N) ").lower()
+    # if game_play == "y":
+    #     break
+    
+print("Thank you for playing!")

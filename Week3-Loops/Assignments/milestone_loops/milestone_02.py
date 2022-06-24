@@ -12,3 +12,26 @@ for letter in word:
         print(letter.replace(letter, "_"), end = "")
     else:
         print(letter, end = "")
+
+
+
+# Stretch challenge program
+
+program_run = "y"
+
+while program_run == "y":
+    word = "In coming days, it will not be possible to survive spiritually without \
+the guiding, directing, comforting, and constant influence of the Holy Ghost."
+
+    letter_number = int(input("Please enter a number: "))
+
+    for index, letter in enumerate(word):
+        if index % letter_number == 0:
+            print(letter.upper(), end = "")
+        else:
+            print(letter.lower(), end = "")
+
+    program_run = input("\nWould you like to enter another number?(Y/N) ")
+    program_run = program_run.lower()
+    
+print("Goodbye")
