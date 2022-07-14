@@ -1,3 +1,6 @@
+# A Rock-Paper-Scissors game with two players. One player is controlled by 
+# the computer and the other player is controlled by you(the user)
+
 import random
 import time
 
@@ -57,8 +60,3 @@ while game_play == "y":
     game_play = input("Do you want to play again? (Y/N) ").lower()
 
 print("\nThank you for playing")
-
-
-
-# Submission Comment
-# This game program satisfies the core requirements of the assignment.
