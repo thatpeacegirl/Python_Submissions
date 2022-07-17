@@ -36,6 +36,7 @@ else:
         else:
             should_loan = False
 
+# Display message based on whether the user is eligible or not
 if should_loan:
     print("Congratulations! You are eligible to get a loan")
 else:

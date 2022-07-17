@@ -32,9 +32,9 @@ for i in shopping_list:
 print("\nThe shopping list with indexes is:")
 
 # Loop through the shopping list and print out each item with its index
-for i in range(len(shopping_list)):
-    item = shopping_list[i]
-    print(f"{i}. {item}")
+for j in range(len(shopping_list)):
+    item = shopping_list[j]
+    print(f"{j}. {item}")
 
 # Replacing an item in the shopping list
 # Get user input
@@ -47,9 +47,9 @@ shopping_list.pop(new_item_index)
 # Add a new item at the same index
 shopping_list.insert(new_item_index, new_item)
 
-print("\nThe shopping list with indexes is:")
+print("\nThe new shopping list with indexes is:")
 
 # Loop through the new shopping list and print out each item with its index
-for i in range(len(shopping_list)):
-    item = shopping_list[i]
-    print(f"{i}. {item}")
+for k in range(len(shopping_list)):
+    item = shopping_list[k]
+    print(f"{k}. {item}")
