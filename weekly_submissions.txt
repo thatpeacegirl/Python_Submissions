@@ -1,0 +1,24 @@
+Weekly To-Do list
+
+1. Submit all assignments given to you
+2. Write a single .txt file containing a description. You would make use of the dicussion tab on Github to submit it.
+
+
+Description
+
+This description should follow normal English rules of spelling and grammar. It must include the following:
+1. The amount of time that you spent working on yo
+ur final project during the current lesson.
+2. A list of the documentations that you read, the videos that you watched, and the coding experiments that you tried.
+3. Add a submission comment that best describes your assignment. Highlight what you were able to do and if you did anything to show creativity and exceed requirements, comment on it.
+4. What you learnt from the time spent working on the project.
+
+
+Questions to ask yourself after writing your program
+
+- Does this code run for every possible input including the edge cases.
+- Is there an alternate solution for the same problem?
+- Is the code efficient? Can it be more efficient or can the performance be improved?
+- How else can you make the code more readable?
+- Are there any more extra steps or functions you can take out?
+- Is there any repetition in your code? Take it out.
